@@ -31,9 +31,16 @@
     const goingDown = y > lastY + 2 && y > window.innerHeight * 0.6;
     const goingUp = y < lastY - 2;
     if (goingDown && !document.body.classList.contains('menu-open')) header.classList.add('is-hidden');
-    if (goingUp || y < 40) header.classList.remove('is-hidden');
+    // Perto do topo o cabeçalho (e o botão do menu) está sempre visível, mesmo depois de um scroll rápido no telemóvel
+    if (goingUp || y < window.innerHeight * 0.6) header.classList.remove('is-hidden');
     lastY = y;
   };
+  // Voltar a uma página (botão "anterior") ou rodar o telemóvel: recalcula sem esperar por scroll
+  const refreshHeader = () => { if (header) { lastY = window.scrollY; onScrollHeader(window.scrollY); } };
+  window.addEventListener('pageshow', refreshHeader);
+  window.addEventListener('orientationchange', () => setTimeout(refreshHeader, 300));
+  // Toque no topo do ecrã com o cabeçalho escondido: mostra-o
+  window.addEventListener('touchstart', (e) => { if (header && e.touches[0] && e.touches[0].clientY < 80) header.classList.remove('is-hidden'); }, { passive: true });
 
   /* ---------- 2. Menu de telemóvel ---------- */
   const toggle = document.querySelector('[data-menu-toggle]');

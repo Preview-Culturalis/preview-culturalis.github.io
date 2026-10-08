@@ -36,7 +36,7 @@
 <script>document.documentElement.classList.add('js')</script>
 <!-- CSS incluído na própria página: o browser não tem de esperar por outro ficheiro -->
 <!-- Medidas, cores e animações escolhidas no Editor de Design -->
-<style id="design-tokens">:root{--gutter:35px;--wrap:1280px;--body:15px;--body-lh:1.5;--display-lh:1.05;--eyebrow:12px;--stack:10px;--btn-size:14px;--btn-pad-y:14px;--btn-pad-x:26px;--header-pad:38px;--header-pad-s:25px;--header-h:60px;--logo-w:150px;--logo-w-s:136px;--nav-size:14px;--nav-gap:28px;--lang-size:13px;--lang-gap:28px;--social-size:18px;--header-bg:0.92;--menu-bars:41px;--menu-bar-h:6px;--menu-bar-gap:4px;--menu-label:8.5px;--menu-link:30px;--menu-link-gap:6px;--hero-h:90svh;--hero-shade:0.4;--hero-offset:1px;--hero-kicker:4vw;--hero-kicker-gap:7px;--hero-title:11vw;--hero-title-lh:0.95;--hero-lead:15px;--hero-lead-w:44ch;--hero-lead-gap:20px;--hero-btn-gap:22px;--svc-pt:64px;--svc-pb:64px;--svc-title:26px;--svc-aside:14px;--svc-head-gap:40px;--card-ratio:0.99;--card-gap:14px;--card-pad:18px;--card-title:20px;--card-text:12px;--card-shade:0.86;--cat-pt:64px;--cat-pb:64px;--cat-title:26px;--cat-head-gap:18px;--cat-gap:14px;--cat-cover:100%;--cat-label:11.5px;--cat-btn-pad-y:11px;--cat-btn-pad-x:14px;--cat-btn-w:100%;--vis-pad:96px;--vis-photos:100%;--vis-ratio:2.4;--vis-gap:0px;--vis-overlap:40px;--vis-small:13px;--vis-small-w:34ch;--vis-title:34px;--vis-text-gap:16px;--num-pt:22px;--num-pb:64px;--stats-gap:28px;--num-title:22px;--stats-mt:18px;--stat-size:14vw;--stat-label:14px;--num-photo:block;--bg-overlay:0.72;--proc-mt:56px;--proc-title:19px;--proc-gap:24px;--step-size:14px;--step-num:13px;--step-line:2px;--steps-gap:18px;--about-pt:64px;--about-pb:64px;--pillar-title:16px;--pillar-text:14px;--pillars-gap:24px;--statement:19.5px;--statement-gap:40px;--contact-pt:64px;--contact-pb:64px;--contact-title:26px;--contact-text:15px;--contact-gap:40px;--contact-photo:block;--page-hero-h:62svh;--page-title:32px;--page-lead:15px;--page-pad:72px;--page-head-gap:28px;--page-hero-tint:0.45;--anim-draw:130px;--anim-stack:22px;--emp-feat-photos:100%;--emp-feat-overlap:40px;--emp-feat-title:34px;--loures-h:320px;--loures-veil:0.55;--spines-text:38px;--bleed-w:150px;--bleed-out:11%;--emp-statement-title:34px;--sol-card-ratio:0.99;--sol-card-gap:14px;--fig-title:38px;--fig-size:46px;--fig-gap:36px;--fig-bar-h:44px;--fig-map-w:300px;--sol-who-size:15px;--sol-who-pad:14px;--ct-gap:40px;--ct-form-pad:22px;--ct-form-title:18px;--ct-info-size:16px;--info-lead-title:22px;--info-body:16px;--prj-title:34px;--prj-count:44px;--prj-map-w:360px;--prj-card-gap:28px;--prj-card-title:16px;--prj-name:28px;--prj-gal-gap:8px;--sol-feat-photos:100%;--sol-feat-overlap:40px;--sol-feat-title:34px;--sol-range-gap:36px;--sol-range-title:17px;--sol-range-text:14px;--sol-gal-gap:8px;--sol-gal-cap:12px;--sol-cat-cover:260px;--marquee-show:none;--marquee-size:9vw;--marquee-time:160s;--marquee-pt:28px;--marquee-pb:28px;--marquee-gap:0.45;--marquee-op:0.35;--marquee-stroke:1.5px;--footer-pt:96px;--footer-pb:96px;--footer-logo:200px;--footer-text:14px;--footer-gap:35px;--footer-motif-w:90px;--footer-motif-out:40;--footer-legal:12px;--sq:48px;--sq-gap:5px;--sq-rect:1.5;--motif-big:1;--motif-flip:1;--bars-h:1.15;--hero-cube:block;--hero-cube-op:0.25;--bga-blocks:block;--bga-blocks-vis:block;--blocks-size:46vw;--blocks-op:0.05;--contact-flow:block;--bga-opacity:0.12;--bga-speed:3;--motion:1;--parallax:1;--smooth-on:1;--green-900:#23322d;--green-700:#30433b}@media (min-width:900px){:root{--gutter:56px;--wrap:1280px;--body:16px;--body-lh:1.54;--display-lh:1.02;--eyebrow:13px;--stack:25px;--btn-size:14px;--btn-pad-y:15px;--btn-pad-x:28px;--header-pad:60px;--header-pad-s:45px;--header-h:60px;--logo-w:150px;--logo-w-s:136px;--nav-size:14px;--nav-gap:32px;--lang-size:13px;--lang-gap:28px;--social-size:18px;--header-bg:0.92;--menu-bars:33px;--menu-bar-h:6px;--menu-bar-gap:4px;--menu-label:9px;--menu-link:36px;--menu-link-gap:6px;--hero-h:86svh;--hero-shade:0.5;--hero-offset:0px;--hero-kicker:4.1vw;--hero-kicker-gap:14px;--hero-title:7vw;--hero-title-lh:0.76;--hero-lead:16px;--hero-lead-w:44ch;--hero-lead-gap:50px;--hero-btn-gap:55px;--svc-pt:110px;--svc-pb:170px;--svc-title:46px;--svc-aside:15px;--svc-head-gap:130px;--card-ratio:0.7;--card-gap:47px;--card-pad:26px;--card-title:19px;--card-text:14px;--card-shade:0.86;--cat-pt:110px;--cat-pb:110px;--cat-title:46px;--cat-head-gap:91px;--cat-gap:15px;--cat-cover:100%;--cat-label:13px;--cat-btn-pad-y:16px;--cat-btn-pad-x:24px;--cat-btn-w:86%;--vis-pad:160px;--vis-photos:57%;--vis-ratio:2.4;--vis-gap:0px;--vis-overlap:160px;--vis-small:13px;--vis-small-w:34ch;--vis-title:81px;--vis-text-gap:40px;--num-pt:36px;--num-pb:110px;--stats-gap:32px;--num-title:34px;--stats-mt:28px;--stat-size:5.7vw;--stat-label:14px;--num-photo:block;--bg-overlay:0.72;--proc-mt:127px;--proc-title:33px;--proc-gap:40px;--step-size:16px;--step-num:13px;--step-line:2px;--steps-gap:22px;--about-pt:110px;--about-pb:110px;--pillar-title:16px;--pillar-text:15px;--pillars-gap:48px;--statement:21px;--statement-gap:91px;--contact-pt:110px;--contact-pb:110px;--contact-title:46px;--contact-text:16px;--contact-gap:91px;--contact-photo:block;--page-hero-h:70svh;--page-title:66px;--page-lead:18px;--page-pad:120px;--page-head-gap:56px;--page-hero-tint:0.45;--anim-draw:210px;--anim-stack:30px;--emp-feat-photos:57%;--emp-feat-overlap:160px;--emp-feat-title:70px;--loures-h:480px;--loures-veil:0.55;--spines-text:70px;--bleed-w:350px;--bleed-out:4%;--emp-statement-title:81px;--sol-card-ratio:0.62;--sol-card-gap:24px;--fig-title:56px;--fig-size:72px;--fig-gap:48px;--fig-bar-h:52px;--fig-map-w:380px;--sol-who-size:18px;--sol-who-pad:20px;--ct-gap:96px;--ct-form-pad:44px;--ct-form-title:22px;--ct-info-size:18px;--info-lead-title:30px;--info-body:17px;--prj-title:58px;--prj-count:64px;--prj-map-w:520px;--prj-card-gap:36px;--prj-card-title:18px;--prj-name:44px;--prj-gal-gap:14px;--sol-feat-photos:57%;--sol-feat-overlap:160px;--sol-feat-title:64px;--sol-range-gap:48px;--sol-range-title:19px;--sol-range-text:15px;--sol-gal-gap:14px;--sol-gal-cap:13px;--sol-cat-cover:420px;--marquee-show:none;--marquee-size:5.5vw;--marquee-time:160s;--marquee-pt:48px;--marquee-pb:48px;--marquee-gap:0.45;--marquee-op:0.35;--marquee-stroke:1.5px;--footer-pt:160px;--footer-pb:150px;--footer-logo:200px;--footer-text:14px;--footer-gap:40px;--footer-motif-w:120px;--footer-motif-out:40;--footer-legal:12px;--sq:52px;--sq-gap:15px;--sq-rect:2;--motif-big:1;--motif-flip:1;--bars-h:1.15;--hero-cube:block;--hero-cube-op:0.2;--bga-blocks:block;--bga-blocks-vis:block;--blocks-size:24vw;--blocks-op:0.05;--contact-flow:block;--bga-opacity:0.12;--bga-speed:1;--motion:1;--parallax:1;--smooth-on:1;--green-900:#23322d;--green-700:#30433b}}</style>
+<style id="design-tokens">:root{--gutter:35px;--wrap:1280px;--body:15px;--body-lh:1.5;--display-lh:1.05;--eyebrow:12px;--stack:10px;--btn-size:14px;--btn-pad-y:14px;--btn-pad-x:26px;--header-pad:38px;--header-pad-s:25px;--header-h:60px;--logo-w:150px;--logo-w-s:136px;--nav-size:14px;--nav-gap:28px;--lang-size:13px;--lang-gap:28px;--social-size:18px;--header-bg:0.92;--menu-bars:41px;--menu-bar-h:6px;--menu-bar-gap:4px;--menu-label:8.5px;--menu-link:30px;--menu-link-gap:6px;--hero-h:90svh;--hero-shade:0.4;--hero-offset:1px;--hero-kicker:4vw;--hero-kicker-gap:7px;--hero-title:11vw;--hero-title-lh:0.95;--hero-lead:15px;--hero-lead-w:44ch;--hero-lead-gap:20px;--hero-btn-gap:22px;--svc-pt:64px;--svc-pb:64px;--svc-title:26px;--svc-aside:14px;--svc-head-gap:40px;--card-ratio:0.99;--card-gap:14px;--card-pad:18px;--card-title:20px;--card-text:12px;--card-shade:0.86;--cat-pt:64px;--cat-pb:64px;--cat-title:26px;--cat-head-gap:18px;--cat-gap:14px;--cat-cover:100%;--cat-label:11.5px;--cat-btn-pad-y:11px;--cat-btn-pad-x:14px;--cat-btn-w:100%;--vis-pad:96px;--vis-photos:100%;--vis-ratio:2.4;--vis-gap:0px;--vis-overlap:40px;--vis-small:13px;--vis-small-w:34ch;--vis-title:34px;--vis-text-gap:16px;--num-pt:22px;--num-pb:64px;--stats-gap:28px;--num-title:22px;--stats-mt:18px;--stat-size:14vw;--stat-label:14px;--num-photo:block;--bg-overlay:0.72;--proc-mt:56px;--proc-title:19px;--proc-gap:24px;--step-size:14px;--step-num:13px;--step-line:2px;--steps-gap:18px;--about-pt:64px;--about-pb:64px;--pillar-title:16px;--pillar-text:14px;--pillars-gap:24px;--statement:19.5px;--statement-gap:40px;--contact-pt:64px;--contact-pb:64px;--contact-title:26px;--contact-text:15px;--contact-gap:40px;--contact-photo:block;--page-hero-h:62svh;--page-title:32px;--page-lead:15px;--page-pad:72px;--page-head-gap:28px;--page-hero-tint:0.45;--anim-draw:130px;--anim-stack:22px;--emp-feat-photos:100%;--emp-feat-overlap:40px;--emp-feat-title:34px;--loures-h:320px;--loures-veil:0.55;--spines-text:38px;--bleed-w:150px;--bleed-out:11%;--emp-statement-title:34px;--sol-card-ratio:0.99;--sol-card-gap:14px;--fig-title:38px;--fig-size:46px;--fig-gap:36px;--fig-bar-h:44px;--fig-map-w:300px;--sol-who-size:15px;--sol-who-pad:14px;--ct-gap:40px;--ct-form-pad:22px;--ct-form-title:18px;--ct-info-size:16px;--info-lead-title:22px;--info-body:16px;--prj-title:34px;--prj-count:44px;--prj-map-w:360px;--prj-card-gap:28px;--prj-card-title:16px;--prj-name:28px;--prj-gal-gap:8px;--sol-feat-photos:100%;--sol-feat-overlap:40px;--sol-feat-title:34px;--sol-range-gap:36px;--sol-range-title:17px;--sol-range-text:14px;--sol-gal-gap:8px;--sol-gal-cap:12px;--sol-cat-cover:260px;--marquee-show:block;--marquee-size:9vw;--marquee-time:160s;--marquee-pt:22px;--marquee-pb:22px;--marquee-gap:0.45;--marquee-op:0.35;--marquee-stroke:1.5px;--footer-pt:96px;--footer-pb:96px;--footer-logo:200px;--footer-text:14px;--footer-gap:35px;--footer-motif-w:90px;--footer-motif-out:40;--footer-legal:12px;--sq:48px;--sq-gap:5px;--sq-rect:1.5;--motif-big:1;--motif-flip:1;--bars-h:1.15;--hero-cube:block;--hero-cube-op:0.25;--bga-blocks:block;--bga-blocks-vis:block;--blocks-size:46vw;--blocks-op:0.05;--contact-flow:block;--bga-opacity:0.12;--bga-speed:3;--motion:1;--parallax:1;--smooth-on:1;--green-900:#23322d;--green-700:#30433b}@media (min-width:900px){:root{--gutter:56px;--wrap:1280px;--body:16px;--body-lh:1.54;--display-lh:1.02;--eyebrow:13px;--stack:25px;--btn-size:14px;--btn-pad-y:15px;--btn-pad-x:28px;--header-pad:60px;--header-pad-s:45px;--header-h:60px;--logo-w:150px;--logo-w-s:136px;--nav-size:14px;--nav-gap:32px;--lang-size:13px;--lang-gap:28px;--social-size:18px;--header-bg:0.92;--menu-bars:33px;--menu-bar-h:6px;--menu-bar-gap:4px;--menu-label:9px;--menu-link:36px;--menu-link-gap:6px;--hero-h:86svh;--hero-shade:0.5;--hero-offset:0px;--hero-kicker:4.1vw;--hero-kicker-gap:14px;--hero-title:7vw;--hero-title-lh:0.76;--hero-lead:16px;--hero-lead-w:44ch;--hero-lead-gap:50px;--hero-btn-gap:55px;--svc-pt:110px;--svc-pb:170px;--svc-title:46px;--svc-aside:15px;--svc-head-gap:130px;--card-ratio:0.7;--card-gap:47px;--card-pad:26px;--card-title:19px;--card-text:14px;--card-shade:0.86;--cat-pt:110px;--cat-pb:110px;--cat-title:46px;--cat-head-gap:91px;--cat-gap:15px;--cat-cover:100%;--cat-label:13px;--cat-btn-pad-y:16px;--cat-btn-pad-x:24px;--cat-btn-w:86%;--vis-pad:160px;--vis-photos:57%;--vis-ratio:2.4;--vis-gap:0px;--vis-overlap:160px;--vis-small:13px;--vis-small-w:34ch;--vis-title:81px;--vis-text-gap:40px;--num-pt:36px;--num-pb:110px;--stats-gap:32px;--num-title:34px;--stats-mt:28px;--stat-size:5.7vw;--stat-label:14px;--num-photo:block;--bg-overlay:0.72;--proc-mt:127px;--proc-title:33px;--proc-gap:40px;--step-size:16px;--step-num:13px;--step-line:2px;--steps-gap:22px;--about-pt:110px;--about-pb:110px;--pillar-title:16px;--pillar-text:15px;--pillars-gap:48px;--statement:21px;--statement-gap:91px;--contact-pt:110px;--contact-pb:110px;--contact-title:46px;--contact-text:16px;--contact-gap:91px;--contact-photo:block;--page-hero-h:70svh;--page-title:66px;--page-lead:18px;--page-pad:120px;--page-head-gap:56px;--page-hero-tint:0.45;--anim-draw:210px;--anim-stack:30px;--emp-feat-photos:57%;--emp-feat-overlap:160px;--emp-feat-title:70px;--loures-h:480px;--loures-veil:0.55;--spines-text:70px;--bleed-w:350px;--bleed-out:4%;--emp-statement-title:81px;--sol-card-ratio:0.62;--sol-card-gap:24px;--fig-title:56px;--fig-size:72px;--fig-gap:48px;--fig-bar-h:52px;--fig-map-w:380px;--sol-who-size:18px;--sol-who-pad:20px;--ct-gap:96px;--ct-form-pad:44px;--ct-form-title:22px;--ct-info-size:18px;--info-lead-title:30px;--info-body:17px;--prj-title:58px;--prj-count:64px;--prj-map-w:520px;--prj-card-gap:36px;--prj-card-title:18px;--prj-name:44px;--prj-gal-gap:14px;--sol-feat-photos:57%;--sol-feat-overlap:160px;--sol-feat-title:64px;--sol-range-gap:48px;--sol-range-title:19px;--sol-range-text:15px;--sol-gal-gap:14px;--sol-gal-cap:13px;--sol-cat-cover:420px;--marquee-show:block;--marquee-size:2.6vw;--marquee-time:160s;--marquee-pt:32px;--marquee-pb:32px;--marquee-gap:0.45;--marquee-op:0.35;--marquee-stroke:1.5px;--footer-pt:160px;--footer-pb:150px;--footer-logo:200px;--footer-text:14px;--footer-gap:40px;--footer-motif-w:120px;--footer-motif-out:40;--footer-legal:12px;--sq:52px;--sq-gap:15px;--sq-rect:2;--motif-big:1;--motif-flip:1;--bars-h:1.15;--hero-cube:block;--hero-cube-op:0.2;--bga-blocks:block;--bga-blocks-vis:block;--blocks-size:24vw;--blocks-op:0.05;--contact-flow:block;--bga-opacity:0.12;--bga-speed:1;--motion:1;--parallax:1;--smooth-on:1;--green-900:#23322d;--green-700:#30433b}}</style>
 <style>/* ==========================================================================
    Culturalis Borgeaud — estilos do site
    Todas as medidas ajustáveis vêm do Editor de Design (app/design/tokens.json)
@@ -73,7 +73,7 @@
 
 /* ---------- Base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; scroll-padding-top: var(--header-h); }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: var(--header-h); overflow-x: clip; }   /* nunca deslizar para o lado no telemóvel (o botão do menu sairia do ecrã) */
 body {
   margin: 0; font-family: var(--font-body); font-size: var(--body); line-height: var(--body-lh);
   color: var(--ink); background: var(--white); -webkit-font-smoothing: antialiased; overflow-x: clip;
@@ -117,6 +117,10 @@ strong { font-weight: 700; }
 .btn:hover::before, .btn:focus-visible::before { transform: scaleX(1); transform-origin: left; }
 button.btn { background: none; font-family: inherit; cursor: pointer; }
 .btn--light { --btn-c: var(--white); --btn-fill: var(--white); --btn-on: var(--green-900); }
+/* Botão cheio (destaque): branco com texto verde; ao passar, fica transparente com texto branco */
+.btn--solid { background: var(--white); border-color: var(--white); color: var(--green-900); --btn-fill: var(--green-900); --btn-on: var(--white); }
+.btn--solid svg { width: 1em; height: 1em; }
+.hero__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem; }
 
 /* ---------- Cabeçalho ---------- */
 .site-header {
@@ -153,6 +157,11 @@ button.btn { background: none; font-family: inherit; cursor: pointer; }
 .nav-list a:hover::after, .nav-list a[aria-current]::after,
 .lang-switch a:hover::after, .lang-switch a[aria-current]::after { transform: scaleX(1); transform-origin: left; }
 .header-tools { display: flex; align-items: center; gap: 1.1rem; }
+@media (max-width: 350px) {   /* telemóveis muito pequenos (320 px): logótipo e PT/EN mais juntos para o MENU caber */
+  .header-tools { gap: .6rem; }
+  .brand img, .is-scrolled .brand img { width: min(var(--logo-w), 128px); }
+  .lang-switch { margin-right: 0; gap: .5rem; }
+}
 .lang-switch { display: flex; gap: .75rem; font-size: var(--lang-size); font-weight: 500; margin-right: calc(var(--lang-gap) - 1.1rem); }   /* afastado do botão do menu */
 .lang-switch a { opacity: .65; }
 .lang-switch a[aria-current], .lang-switch a:hover { opacity: 1; }
@@ -326,7 +335,7 @@ button.btn { background: none; font-family: inherit; cursor: pointer; }
 /* ---------- 3. Catálogos ---------- */
 .catalogs { background: var(--white); padding: calc(var(--cat-pt) + var(--sq-b) * var(--bars-h) / 2 + var(--sq-gap) + var(--sq)) 0 var(--cat-pb); }
 .catalogs .display { color: var(--green-900); font-size: var(--cat-title); }
-.catalog-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--cat-gap); margin-top: var(--cat-head-gap); }
+.catalog-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--cat-gap); margin-top: var(--cat-head-gap); }
 @media (min-width: 900px) { .catalog-grid { grid-template-columns: repeat(4, 1fr); } }
 .catalog__link { display: grid; justify-items: center; gap: .9rem; }
 .catalog__cover { display: block; width: var(--cat-cover); transition: transform .8s var(--ease), filter .8s var(--ease); filter: drop-shadow(0 10px 18px rgba(31,41,37,.12)); }
@@ -343,11 +352,12 @@ button.btn { background: none; font-family: inherit; cursor: pointer; }
 .vision__photo { overflow: hidden; aspect-ratio: var(--vis-ratio); }
 .vision__photo img { width: 100%; height: 100%; object-fit: cover; }
 .vision__photos::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, transparent 55%, color-mix(in srgb, var(--green-900) 75%, transparent) 100%); }
-.vision__text { position: relative; z-index: 2; display: grid; justify-items: end; gap: var(--vis-text-gap); text-align: right; margin-top: calc(-1 * var(--vis-overlap)); }
-.vision__text .display { font-size: var(--vis-title); text-shadow: 0 2px 28px rgba(15, 22, 19, .55); }
+.vision__text { position: relative; z-index: 2; display: grid; justify-items: end; gap: var(--vis-text-gap); text-align: right; margin-top: calc(-1 * var(--vis-overlap)); container-type: inline-size; }
+/* O título encolhe para caber na coluna ("Transformamos" ≈ 8,6 vezes o tamanho da letra); nunca passa do valor do design */
+.vision__text .display { font-size: min(var(--vis-title), 11.4cqi); text-shadow: 0 2px 28px rgba(15, 22, 19, .55); }
 .vision__small { max-width: var(--vis-small-w); font-size: var(--vis-small); font-weight: 700; }
 @media (min-width: 900px) {
-  .vision__grid { grid-template-columns: var(--vis-photos) 1fr; align-items: center; }
+  .vision__grid { grid-template-columns: var(--vis-photos) minmax(0, 1fr); align-items: center; }   /* minmax: o título não alarga a página em ecrãs de ~1000 px */
   .vision__photos { width: auto; }
   .vision__photos::after { background: linear-gradient(90deg, transparent 45%, color-mix(in srgb, var(--green-900) 70%, transparent) 100%); }
   .vision__text { margin-top: 0; margin-left: calc(-1 * var(--vis-overlap)); }
@@ -434,14 +444,14 @@ button.btn { background: none; font-family: inherit; cursor: pointer; }
 .footer-legal { display: flex; flex-wrap: wrap; gap: .5rem 2rem; justify-content: space-between; padding-block: 1.1rem 1.4rem; border-top: 1px solid var(--line-light); font-size: var(--footer-legal); color: var(--ink-soft); }
 
 /* Newsletter no rodapé */
-.nl-signup { display: grid; gap: 1.25rem; padding-top: var(--footer-pt); padding-bottom: 2rem; border-bottom: 1px solid var(--line-light); }
+.nl-signup { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem; padding-top: var(--footer-pt); padding-bottom: 2rem; border-bottom: 1px solid var(--line-light); }
 @media (min-width: 900px) { .nl-signup { grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 4rem; align-items: center; } }
 .nl-signup__t { font-size: 1rem; margin-bottom: .4rem; }
 .nl-signup__text p { color: var(--ink-soft); max-width: 46ch; }
 .nl-form { display: grid; gap: .7rem; }
-.nl-form__row { display: flex; gap: .5rem; }
+.nl-form__row { display: flex; flex-wrap: wrap; gap: .5rem; }   /* em ecrãs muito estreitos o botão passa para baixo */
 .nl-form__row[hidden], .nl-form__consent[hidden], .nl-form__ok[hidden] { display: none; }
-.nl-form input[type=email] { flex: 1; min-width: 0; padding: .8rem .9rem; border: 1px solid #c9cfcb; background: var(--white); font: 400 1rem var(--font-body); color: var(--ink); }
+.nl-form input[type=email] { flex: 1 1 12rem; min-width: 0; padding: .8rem .9rem; border: 1px solid #c9cfcb; background: var(--white); font: 400 1rem var(--font-body); color: var(--ink); }
 .nl-form input[type=email]:focus { outline: 2px solid var(--green-500); outline-offset: 0; }
 .nl-form__consent { display: flex; gap: .55rem; align-items: flex-start; font-size: .8rem; color: var(--ink-soft); line-height: 1.45; }
 .nl-form__consent input { margin-top: .2rem; accent-color: var(--green-900); }
@@ -462,11 +472,11 @@ button.btn { background: none; font-family: inherit; cursor: pointer; }
    ========================================================================== */
 .page-hero {
   position: relative; z-index: 2; min-height: max(380px, var(--page-hero-h));
-  display: grid; align-items: end; background: var(--green-900); color: var(--white);
+  display: grid; grid-template-columns: minmax(0, 1fr); align-items: end; background: var(--green-900); color: var(--white);
   padding: calc(var(--header-total) + 24px) 0 calc(var(--page-pad) * .55 + var(--sq) * 1.6);
 }
 .page-hero .motif-flow-wrap { display: var(--hero-cube); }
-.page-hero__title { font-size: var(--page-title); max-width: 20ch; }
+.page-hero__title { font-size: min(var(--page-title), 9vw); max-width: 20ch; }   /* palavras longas ("Complementar") cabem em telemóveis estreitos */
 .page-hero__lead { max-width: 54ch; margin-top: calc(var(--stack) * 1.4); font-size: var(--page-lead); line-height: 1.5; color: var(--on-dark); }
 .page-section { position: relative; padding: var(--page-pad) 0; }
 .page-section--dark { background: var(--green-900); color: var(--white); }
@@ -508,6 +518,8 @@ button.btn { background: none; font-family: inherit; cursor: pointer; }
 .partner__name { font-family: var(--font-display); font-weight: 700; font-size: clamp(20px, 2.4vw, 30px); line-height: 1.1; color: var(--green-900); }
 .partner__name small { display: block; margin-top: .4rem; font-family: var(--font-body); font-weight: 500; font-size: .5em; color: var(--green-500); }
 .partner p { color: var(--ink-soft); }
+.partner__link { display: inline-flex; align-items: center; gap: .4rem; justify-self: start; font-size: .85rem; font-weight: 600; color: var(--green-900); text-decoration: underline; text-underline-offset: .2em; }
+.partner__link svg { width: .85em; height: .85em; }
 .partner .partner__meta { margin-top: -.4rem; font-size: .8rem; font-weight: 500; color: var(--green-500); }
 .quality-note { margin-top: 2rem; font-size: .85rem; color: var(--ink-soft); }
 
@@ -738,6 +750,11 @@ button.btn { background: none; font-family: inherit; cursor: pointer; }
 .prj-map__count dd { font-family: var(--font-display); font-weight: 700; font-size: var(--prj-count); line-height: 1; color: var(--white); }
 .prj-map__count dt { font-size: .85rem; font-weight: 500; color: var(--on-dark); }
 .prj-map__legend { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-size: .8rem; font-weight: 500; color: var(--on-dark); }
+/* Também fora de Portugal (ainda sem pontos no mapa) */
+.prj-abroad { display: grid; gap: .6rem; margin-top: .4rem; padding-top: 1.1rem; border-top: 1px solid rgba(255, 255, 255, .16); }
+.prj-abroad__title { font-size: .8rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--on-dark); }
+.prj-abroad__list { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+.prj-abroad__list li { padding: .35rem .8rem; border: 1px solid rgba(255, 255, 255, .28); font-size: .85rem; font-weight: 500; color: var(--white); }
 .page-section--dark .legend--bib::before { background: var(--white); }
 .page-section--dark .legend--arq::before { box-shadow: inset 0 0 0 1.5px var(--white); }
 .prj-map__map { position: relative; display: grid; justify-items: center; gap: .75rem; }
@@ -998,9 +1015,10 @@ ol.art-list { list-style: decimal; }
                 <li style="--i:1"><a href="/">Início</a></li>
                 <li style="--i:2"><a href="/empresa">Empresa</a></li>
                 <li style="--i:3"><a href="/solucoes">Soluções</a></li>
-                <li style="--i:4"><a href="/projetos">Projetos</a></li>
-                <li style="--i:5"><a href="/info" aria-current="true">Info</a></li>
-                <li style="--i:6"><a href="/contactos">Contactos</a></li>
+                <li style="--i:4"><a href="/catalogos">Catálogos</a></li>
+                <li style="--i:5"><a href="/projetos">Projetos</a></li>
+                <li style="--i:6"><a href="/info" aria-current="true">Info</a></li>
+                <li style="--i:7"><a href="/contactos">Contactos</a></li>
               </ul>
       <div class="nav-extra">
         <p class="nav-contact">
@@ -1121,7 +1139,26 @@ ol.art-list { list-style: decimal; }
 </section>
 </main>
 <footer class="site-footer">
-  <!-- Faixa de texto em movimento: acelera e inverte com o scroll -->
+    <!-- Newsletter: inscrição com consentimento e confirmação por email (dupla confirmação) -->
+  <section class="wrap nl-signup" id="newsletter" aria-labelledby="nl-title">
+    <div class="nl-signup__text">
+      <h2 class="footer-h nl-signup__t" id="nl-title">Receba as nossas novidades</h2>
+      <p>Projetos concluídos, novidades e conselhos para bibliotecas e arquivos. No máximo, uma vez por mês.</p>
+    </div>
+    <form class="nl-form" method="post" action="/newsletter" data-nl-form data-net-error="Não foi possível enviar agora. Verifique a ligação à internet ou ligue-nos." novalidate>
+      <p class="nl-form__ok" data-nl-ok hidden tabindex="-1">Quase feito! Enviámos-lhe um email: carregue no botão para confirmar a subscrição.</p>
+      <div class="nl-form__row" data-nl-fields>
+        <label class="sr-only" for="nl-email">Email</label>
+        <input type="email" id="nl-email" name="email" autocomplete="email" inputmode="email" required maxlength="160" placeholder="O seu email">
+        <button class="btn" type="submit">Subscrever</button>
+      </div>
+      <label class="nl-form__consent" data-nl-fields><input type="checkbox" name="consent" value="1" required> <span>Aceito receber emails da Culturalis Borgeaud. Posso anular a subscrição a qualquer momento. <a href="/privacidade">Política de Privacidade</a>.</span></label>
+      <p class="nl-form__err" role="alert" data-nl-err></p>
+      <div class="ct-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
+      <input type="hidden" name="ft" value="1791467030.6b308886be71fad4910d">
+    </form>
+  </section>
+  <!-- Faixa de texto em movimento (calma, a velocidade constante), entre a newsletter e o rodapé -->
   <div class="marquee" aria-hidden="true" data-marquee>
     <div class="marquee__track">
             <div class="marquee__group">
@@ -1155,25 +1192,6 @@ ol.art-list { list-style: decimal; }
           </div>
   </div>
 
-    <!-- Newsletter: inscrição com consentimento e confirmação por email (dupla confirmação) -->
-  <section class="wrap nl-signup" id="newsletter" aria-labelledby="nl-title">
-    <div class="nl-signup__text">
-      <h2 class="footer-h nl-signup__t" id="nl-title">Receba as nossas novidades</h2>
-      <p>Projetos concluídos, novidades e conselhos para bibliotecas e arquivos. No máximo, uma vez por mês.</p>
-    </div>
-    <form class="nl-form" method="post" action="/newsletter" data-nl-form data-net-error="Não foi possível enviar agora. Verifique a ligação à internet ou ligue-nos." novalidate>
-      <p class="nl-form__ok" data-nl-ok hidden tabindex="-1">Quase feito! Enviámos-lhe um email: carregue no botão para confirmar a subscrição.</p>
-      <div class="nl-form__row" data-nl-fields>
-        <label class="sr-only" for="nl-email">Email</label>
-        <input type="email" id="nl-email" name="email" autocomplete="email" inputmode="email" required maxlength="160" placeholder="O seu email">
-        <button class="btn" type="submit">Subscrever</button>
-      </div>
-      <label class="nl-form__consent" data-nl-fields><input type="checkbox" name="consent" value="1" required> <span>Aceito receber emails da Culturalis Borgeaud. Posso anular a subscrição a qualquer momento. <a href="/privacidade">Política de Privacidade</a>.</span></label>
-      <p class="nl-form__err" role="alert" data-nl-err></p>
-      <div class="ct-hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
-      <input type="hidden" name="ft" value="1791295912.2e230bf091dd4df672bd">
-    </form>
-  </section>
 
   <div class="wrap footer-grid">
     <div class="footer-brand">
@@ -1213,13 +1231,12 @@ ol.art-list { list-style: decimal; }
 
   <div class="wrap footer-legal">
     <span>© 2026 Culturalis Borgeaud - Equipamentos de Biblioteca Lda. Todos os direitos reservados.</span>
-    <span>Empresa certificada ISO 9001</span>
     <a href="/privacidade">Política de Privacidade</a>
   </div>
 
   <!-- Pequeno motivo que se desenha (animação 04), mesmo no fundo, a sair pela base da página -->
   <div class="wrap footer-motif"><svg class="grid-draw " viewBox="0 0 158 128" aria-hidden="true"><rect x="1" y="1" width="48" height="48" style="--k:0" pathLength="100"/><rect x="55" y="1" width="48" height="48" style="--k:1" pathLength="100"/><rect x="109" y="1" width="48" height="48" style="--k:2" pathLength="100"/><rect x="1" y="55" width="48" height="72" style="--k:3" pathLength="100"/><rect x="55" y="55" width="48" height="72" style="--k:4" pathLength="100"/><rect x="109" y="55" width="48" height="72" style="--k:5" pathLength="100"/></svg></div>
 </footer>
-<script src="/assets/js/main.js?v=1791290951" defer></script>
+<script src="/assets/js/main.js?v=1791466798" defer></script>
 <script>document.addEventListener("submit",function(e){e.preventDefault();e.stopImmediatePropagation();alert(document.documentElement.lang==="en"?"This is a preview of the new website: forms are not active yet.":"Esta é uma pré-visualização do novo site: os formulários ainda não estão ativos.");},true);</script></body>
 </html>
